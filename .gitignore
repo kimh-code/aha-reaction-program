@@ -1,0 +1,19 @@
+# 사운드 파일들 제외
+**/*.mp3
+**/*.wav
+**/*.ogg
+**/*.m4a
+
+# Python 관련
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# 기타
+.DS_Store
+Thumbs.db
