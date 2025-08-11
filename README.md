@@ -3,7 +3,7 @@
 ### 1. Python 설치 (3.11 이상)
 ### 2. 프로젝트 다운로드 및 설치
 ```bash
-git clone https://github.com/username/aha-reaction-program.git
+git clone https://github.com/kimh-code/aha-reaction-program.git
 cd aha-reaction-program  
 poetry install
 ```

@@ -34,14 +34,14 @@ class AhaReactionProgram:
        
         # 반응 사운드 파일 목록들
         self.sound_folders = {
-            'aha': {'folder': 'aha/', 'patterns': [ 'aha', 'dkgk', 'akwsp', 'akwdk', 'aha'], 'files': []},  # 아하, 맞네, 맞아
+            'aha': {'folder': 'aha/', 'patterns': [ 'dkgk', 'akwsp', 'akwdk', 'aha'], 'files': []},  # 아하, 맞네, 맞아
             'crazy': {'folder': 'crazy/', 'patterns': [ 'alcls', 'crazy'], 'files': []}, # 미친
-            'wow': {'folder': 'wow/', 'patterns': [ 'dhk', 'dndhk', 'dh', 'gjf', 'wow'], 'files': []}, # 와, 우와, 오, 헐
+            'wow': {'folder': 'wow/', 'patterns': [ 'dhk', 'dndhk', 'dh', 'eoqkr', 'gjf', 'wow'], 'files': []}, # 와, 우와, 오, 대박, 헐
             'yeah': {'folder': 'yeah/', 'patterns': [ 'dP~', 'dhdP', 'dPtm', 'dptm', 'yes', 'whgdk', 'yeah', 'yes'], 'files': []}, # 예~, 오예, 예스, 에스, 좋아
-            'no': {'folder': 'no/', 'patterns': [ 'dksl', 'dkseho', 'dpdl', 'no'], 'files': []}, # 아니, 안돼, 에이
+            'no': {'folder': 'no/', 'patterns': [ 'dksl', 'dkseho', 'dpdl', 'no', 'never'], 'files': []}, # 아니, 안돼, 에이
             'hmm': {'folder': 'hmm/', 'patterns': [ 'dma', 'gma', 'dj...', 'dj..', 'umm', 'hmm'], 'files': []}, # 음, 흠, 어...
-            'lol': {'folder': 'lol/', 'patterns': ['ㅋㅋㅋ', 'ㅋㅋ', 'zzz' ,'zz' ,'kkk', 'kk', 'lol', 'gkgk', 'dntru'], 'files': []},  # 하하, 웃겨
-            'confused': {'folder': 'confused/', 'patterns': [ 'antmsakfdldi', 'dlgodksrk', 'ahfmrpTek' , 'ahfmrpTdj' , 'anjfRk' , 'anjdi', 'gjr', 'what'], 'files': []}, # 무슨말이야, 이해안가, 모르겠다, 모르겠어, 뭘까, 뭐야, 헉
+            'lol': {'folder': 'lol/', 'patterns': ['ㅋㅋㅋ', 'ㅋㅋ', 'zzz' ,'zz' ,'kkk', 'kk', 'lol', 'gkgk', 'glgl', 'gpgp', 'dntru', 'dntrlek'], 'files': []},  # 하하, 히히, 헤헤, 웃겨, 웃기다
+            'confused': {'folder': 'confused/', 'patterns': [ 'antmsakfdldi', 'dlgodksrk', 'ahfmrpTek' , 'ahfmrpTdj' , 'anjfRk' , 'anjdi', 'anjrk', 'gjr', 'what'], 'files': []}, # 무슨말이야, 이해안가, 모르겠다, 모르겠어, 뭘까, 뭐야, 뭐가, 헉
             'but': {'folder': 'but/', 'patterns': [ 'rmsep', 'rmfjgwlaks' , 'rmfjsk' ,'but', 'well', 'anyway', 'btw'], 'files': []}, # 근데, 그렇지만, 그러나
             'work': {'folder': 'work/', 'patterns': [], 'files': []}  # 타이머 전용, 패턴 없음
         }
